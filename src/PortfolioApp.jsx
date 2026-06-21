@@ -5,7 +5,7 @@ import ProjectsTab from './components/ProjectsTab';
 import ContactTab from './components/ContactTab';
 
 import { FaGithub, FaLinkedinIn, FaRegEnvelope, FaPhone, FaArrowRight, FaDownload } from 'react-icons/fa6';
-import resumeFile from './assets/resume.pdf';
+import resumeFile from './assets/Resume.pdf';
 
 function App() {
   const [activeTab, setActiveTab] = useState('about');
