@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-darkBg: #121212;
+  --color-cardBg: #1c1c1e;
+  --color-cardHover: #262629;
+  --color-accentOrange: #f45b22;
+}
+
+body {
+  background-color: var(--color-darkBg);
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.4s ease-out forwards;
+}
